@@ -6,7 +6,8 @@ This take-home assignment evaluates your understanding of convolutional neural n
 
 The task is divided into **two steps**:
 1. Build a basic convolutional block.
-2. Extend it with a fully connected output layer.
+2. Calculate the number of parameters in this network. Show the whole calculation
+3. Extend it with a fully connected output layer.
 
 Please write clean, well-documented code, and include your parameter calculations as comments or markdown blocks.
 
@@ -64,3 +65,56 @@ def test():
     print("Test passed!")
 
 test()
+
+## 🔧 Step 2: Add a Fully Connected Layer
+
+### Task
+
+Extend your model by adding a fully connected layer that maps the flattened output
+
+### Changes
+
+After the Conv + ReLU step:
+
+1. **Flatten** the output tensor.  
+2. Add a `nn.Linear` layer:
+  in_features = 16 × 32 × 32
+  out_features = 10
+3. What are the total parameters now?
+
+
+### Updated Template
+
+```python
+import torch
+import torch.nn as nn
+
+class Net(nn.Module):
+    def __init__(self, in_channels, out_channels, output_size):
+        super(Net, self).__init__()
+        self.conv1 = nn.Conv2d(
+            in_channels,
+            out_channels,
+            kernel_size=3,
+            stride=1,
+            padding=1
+        )
+        self.relu = nn.ReLU()
+        self.fc = nn.Linear(out_channels * 32 * 32, output_size)
+
+    def forward(self, x):
+        x = self.conv1(x)
+        x = self.relu(x)
+        x = x.view(x.size(0), -1)   # Flatten
+        x = self.fc(x)
+        return x
+
+def test():
+    net = Net(in_channels=3, out_channels=16, output_size=10)
+    x = torch.randn(1, 3, 32, 32)
+    y = net(x)
+    assert y.shape == (1, 10)
+    print("Test passed!")
+
+test()
+
