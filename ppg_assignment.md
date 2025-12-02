@@ -11,7 +11,7 @@ Build a **small end-to-end pipeline** for a photoplethysmography (PPG)-like sign
 5. Is versioned and documented in a public **GitHub repository**.
 
 This is not meant to be a perfect research project, but a realistic engineering exercise. 
-Note: If you don't know how to set up cloud environment, use a jupyter notebook.(Cloud environment is a plus)
+Note: If you don't know how to set up cloud environment, use a jupyter notebook to deliver your result.(Cloud environment is a strong plus)
 
 ---
 
