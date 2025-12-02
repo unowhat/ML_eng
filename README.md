@@ -31,7 +31,7 @@ See: `assignments/ppg_assignment.md`
 ### At a high level, you will:
 
 - Work in a cloud notebook (Colab, SageMaker, etc.)
-- Load and parse `data/mock_ppg_dataset.csv`
+- Load and parse `mock_ppg_dataset.csv`
 - Perform basic signal preprocessing:
   - band-pass filtering
   - normalization
