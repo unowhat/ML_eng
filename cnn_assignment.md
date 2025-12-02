@@ -6,8 +6,7 @@ This take-home assignment evaluates your understanding of convolutional neural n
 
 The task is divided into **two steps**:
 1. Build a basic convolutional block.
-2. Calculate the number of parameters in this network. Show the whole calculation
-3. Extend it with a fully connected output layer.
+2. Extend it with a fully connected output layer.
 
 Please write clean, well-documented code, and include your parameter calculations as comments or markdown blocks.
 
@@ -36,7 +35,8 @@ Implement a PyTorch module with the following structure:
 ### Deliverables
 
 1. Complete the class definition below.
-2. Write a test function that:
+2. Calculate the number of parameters in this network. Show the whole calculation
+3. Bonus: Write a test function that:
    - Creates an instance of your model
    - Passes a random tensor of shape `(1, 3, 32, 32)`
    - Asserts that the output shape is `(1, 16, 32, 32)`
@@ -65,7 +65,7 @@ def test():
     print("Test passed!")
 
 test()
-
+```
 ## 🔧 Step 2: Add a Fully Connected Layer
 
 ### Task
