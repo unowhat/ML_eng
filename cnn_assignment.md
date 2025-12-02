@@ -17,8 +17,6 @@ Assume you are designing a prototype image classifier for a dataset similar to *
 - Each image is a **32×32 RGB** image  
 - There are **10 target classes**
 
----
-
 # 🔧 Step 1: Basic Convolutional Block
 
 ## Task
