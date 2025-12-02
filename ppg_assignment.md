@@ -10,7 +10,8 @@ Build a **small end-to-end pipeline** for a photoplethysmography (PPG)-like sign
 4. Exposes a **minimal interactive demo** (e.g., Gradio or simple widget) that runs in the cloud.
 5. Is versioned and documented in a public **GitHub repository**.
 
-Total expected time: ~3–4 hours. This is not meant to be a perfect research project, but a realistic engineering exercise.
+This is not meant to be a perfect research project, but a realistic engineering exercise. 
+Note: If you don't know how to set up cloud environment, use a jupyter notebook.(Cloud environment is a plus)
 
 ---
 
