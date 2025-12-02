@@ -4,7 +4,6 @@
 
 ```bash 
 git clone https://github.com/unowhat/ML_eng.git
-cd ppg-cloud-ml-takehome
 ```
 ## 2. Open the assignment descriptions
 
