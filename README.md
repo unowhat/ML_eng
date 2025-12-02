@@ -1,39 +1,29 @@
-Getting Started (For Candidates)
+# Getting Started (For Candidates)
 
-Clone this repo
+## 1. Clone this repository
 
+```bash
 git clone https://github.com/<ORG_OR_USER>/ppg-cloud-ml-takehome.git
 cd ppg-cloud-ml-takehome
+```
+## 2. Open the assignment descriptions
 
+-PPG assignment: assignments/ppg_assignment.md
 
-Open the assignment descriptions
+-CNN assignment: assignments/cnn_assignment.md
 
-PPG assignment: assignments/ppg_assignment.md
+## 3. Environment Options
 
-CNN assignment: assignments/cnn_assignment.md
+You may use any of the following environments:
 
-Environment options
+-Google Colab
 
-You may use any of:
+-AWS SageMaker or a Jupyter notebook on an EC2 instance
 
-Google Colab
+-Any cloud-based notebook environment you prefer
 
-AWS SageMaker or a Jupyter notebook on an EC2 instance
-
-Another cloud notebook environment you are comfortable with
-
-You do not need to run anything locally; however, running locally with a venv is also fine if that’s your preference.
-
-Installing Dependencies (Optional Local Setup)
-
-If running locally:
-
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-
-Core Python requirements are listed in requirements.txt.
+You do not need to run anything locally.
+However, using a local virtual environment is also acceptable.
 
 PPG Assignment Summary
 
@@ -41,19 +31,31 @@ See: assignments/ppg_assignment.md
 
 At a high level, you will:
 
-Work in a cloud notebook (Colab, SageMaker, etc.).
+Work in a cloud notebook (Colab, SageMaker, etc.)
 
-Load and parse data/mock_ppg_dataset.csv.
+Load and parse data/mock_ppg_dataset.csv
 
-Perform basic signal preprocessing (e.g., band-pass filtering, normalization).
+Perform basic signal preprocessing:
 
-Extract simple features (mean, std, peak-to-peak amplitude, approximate heart rate, etc.).
+band-pass filtering
 
-Train a small binary classifier (e.g., Logistic Regression) to predict clean vs noisy.
+normalization
 
-Build a minimal interactive demo (e.g., with Gradio or widgets) to visualize a segment and show the prediction.
+Extract simple features such as:
 
-Push your work to a public GitHub repo and provide a link to your cloud notebook.
+mean
+
+standard deviation
+
+peak-to-peak amplitude
+
+approximate heart rate
+
+Train a binary classifier to predict clean vs noisy
+
+Build a minimal interactive demo (Gradio or Colab widgets)
+
+Push your work to a public GitHub repo and provide a link to your cloud notebook
 
 CNN Assignment Summary
 
@@ -61,20 +63,12 @@ See: assignments/cnn_assignment.md
 
 At a high level, you will:
 
-Implement a tiny CNN in PyTorch for 32×32 RGB images with:
+Implement a tiny CNN in PyTorch for 32×32 RGB images, including:
 
-One Conv2d + ReLU block.
+One Conv2d + ReLU block
 
-A fully connected layer mapping to 10 classes.
+One fully connected layer mapping to 10 classes
 
-Verify output shapes using a simple test() function.
+Verify output shapes using a simple test() function
 
-Manually compute and report the number of parameters.
-
-Optionally extend the model with:
-
-Adaptive pooling for dynamic input size.
-
-Programmatic parameter counting.
-
-This assignment is focused on basic PyTorch + CNN fundamentals, not on training a full CIFAR-10 model.
+Manually compute and report the number of trainable parameters
