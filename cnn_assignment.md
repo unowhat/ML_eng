@@ -79,8 +79,8 @@ After the Conv + ReLU step:
 
 1. **Flatten** the output tensor.  
 2. Add a `nn.Linear` layer:
-  in_features = 16 × 32 × 32
+  in_features = 16 × 32 × 32,
   out_features = 10
-3. Compute the new total number of parameters (Conv layer + FC layer).
+4. Compute the new total number of parameters (Conv layer + FC layer).
 Show your full calculation.
 
