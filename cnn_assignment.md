@@ -1,7 +1,5 @@
 # Take-Home Assignment: Simple CNN for Image Classification
 
-## Overview
-
 This take-home assignment evaluates your understanding of convolutional neural networks (CNNs) in PyTorch. You will implement a basic CNN for image classification.
 
 The task is divided into **two steps**:
