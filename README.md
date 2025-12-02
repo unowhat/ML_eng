@@ -2,7 +2,7 @@
 
 ## Overview
 
-This take-home assignment evaluates your understanding of convolutional neural networks (CNNs) in PyTorch. You will implement a basic CNN for image classification using **32×32 RGB images**.  
+This take-home assignment evaluates your understanding of convolutional neural networks (CNNs) in PyTorch. You will implement a basic CNN for image classification. 
 
 The task is divided into **two steps**:
 1. Build a basic convolutional block.
@@ -11,9 +11,6 @@ The task is divided into **two steps**:
 Please write clean, well-documented code, and include your parameter calculations as comments or markdown blocks.
 
 ---
-
-## Dataset Context (Synthetic)
-
 Assume you are designing a prototype image classifier for a dataset similar to **CIFAR-10**:
 
 - Each image is a **32×32 RGB** image.
