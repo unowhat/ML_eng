@@ -2,8 +2,8 @@
 
 ## 1. Clone this repository
 
-```bash
-git clone https://github.com/<ORG_OR_USER>/ppg-cloud-ml-takehome.git
+```bash 
+git clone https://github.com/unowhat/ML_eng.git
 cd ppg-cloud-ml-takehome
 ```
 ## 2. Open the assignment descriptions
