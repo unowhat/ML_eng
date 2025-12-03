@@ -17,12 +17,8 @@ You may use any of the following environments:
 
 -Google Colab
 
--AWS SageMaker or a Jupyter notebook on an EC2 instance
+-Jupyter Notebook
 
--Any cloud-based notebook environment you prefer
-
-You do not need to run anything locally.
-However, using a local virtual environment is also acceptable.
 
 # PPG Assignment Summary
 
