@@ -4,7 +4,7 @@
 
 Build a **small end-to-end pipeline** for a photoplethysmography (PPG)-like signal that:
 
-1. Runs entirely in the **cloud** (Google Colab, AWS SageMaker notebook, or similar).
+1. Runs entirely in the **cloud** (Google Colab, Jupyter notebook).
 2. Includes **basic signal preprocessing** (filtering, feature extraction, visualization).
 3. Trains a **simple ML model** for a clearly defined task (binary classification).
 4. Exposes a **minimal interactive demo** (e.g., Gradio or simple widget) that runs in the cloud.
