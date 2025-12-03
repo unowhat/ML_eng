@@ -1,5 +1,7 @@
 # Getting Started (For Candidates)
 
+Note: You are allowed to search for information online; however, do not use any large language model to draft or compose your answers. Any submission identified as LLM-generated will be rejected.
+
 ## 1. Clone this repository
 
 ```bash 
