@@ -19,7 +19,7 @@ Assume you are designing a prototype image classifier for a dataset similar to *
 
 ## Task
 
-Implement a PyTorch module with the following structure:
+Implement a PyTorch module with the following structure:(Based on your preference, you cna use TensorFlow for implementation)
 
 - One `Conv2d` layer  
   - `in_channels = 3`  
